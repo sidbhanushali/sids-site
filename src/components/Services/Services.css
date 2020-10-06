@@ -1,0 +1,77 @@
+/*Start services*/
+.my-skills {
+  margin-top: 10rem;
+  display: flex;
+  flex-flow: row;
+  text-align: center;
+
+  text-align: justify;
+  -ms-text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+
+  text-align: justify;
+  -ms-text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines;
+}
+
+.skill h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 2rem 2rem 0;
+  font-size: 2rem;
+}
+
+.icon-container {
+  width: 10rem;
+  height: 10rem;
+  border: 1px solid #6c4a88;
+  background-color: #a8a5a81a;
+  margin-bottom: 2rem;
+  display: flex;
+  transform: rotate(45deg);
+}
+
+.icon-container i {
+  color: white;
+  font-size: 5rem;
+  margin: auto;
+  transform: rotate(-45deg);
+}
+
+.skillicons {
+  margin-top: 1rem;
+  font-size: 4rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s ease-in;
+}
+
+.skillicons-left {
+  margin-top: 1rem;
+  font-size: 4rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+  align-items: center;
+}
+
+.skillicon-box {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.skillicon-box:hover {
+  text-shadow: 0px 0px 30px #6ef8fd;
+  transform: scale(1.1);
+}
+
+/*End services*/
