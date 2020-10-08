@@ -62,15 +62,18 @@ const Header = () => {
         <h1>Siddharth Bhanushali</h1> <br />
         {/* animated h6 */}
         <h6>
-          Full Stack
           <span
             className='txt-type'
             data-wait='1000ms'
-            data-words='["Developer", "Designer", "Enthusiast"]'
+            data-words='["Front-End", "Back-end", "DevOps"]'
           />
         </h6>
         <a className='landingbtn' href='#portfolio'>
           <p> See my work! </p>
+        </a>
+        <br />
+        <a href='SiddharthBhanushali.pdf' className='landingbtn' download>
+          <p>Download PDF Resume</p>
         </a>
       </div>
     </header>
