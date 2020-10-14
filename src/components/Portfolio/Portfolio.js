@@ -2,6 +2,8 @@ import React from "react";
 import "./Portfolio.css";
 import "../../mediaQueries.css";
 import AppDemo from "../../images/portfolio_item1.png";
+import covid19App from "../../images/COVID19-APP-demo.gif";
+import codepengif from "../../images/codepen-demoGif.gif";
 
 const Portfolio = () => (
   <section className='portfolio' id='portfolio'>
@@ -12,7 +14,7 @@ const Portfolio = () => (
       </div>
       <div className='portfolio-item'>
         <div className='portfolio-img has-margin-right'>
-          <img src={AppDemo} alt='App-demo' />
+          <img src={codepengif} alt='App-demo' />
         </div>
         <div className='portfolio-description'>
           <h6>Web Development</h6>
@@ -23,8 +25,12 @@ const Portfolio = () => (
             reiciendis deserunt harum necessitatibus dolor, asperiores quos
             alias aliquid rem maiores eaque vitae!
           </p>
-          <a href='/' className='cta'>
-            View Details
+          <a target='_blank' href='/' className='cta'>
+            Live Demo
+          </a>
+          <br />
+          <a target='_blank' href='/' className='cta'>
+            Github Repository
           </a>
         </div>
       </div>
@@ -32,57 +38,83 @@ const Portfolio = () => (
       <div className='portfolio-item'>
         <div className='portfolio-description has-margin-right'>
           <h6>Web Design</h6>
-          <h1>Product Layout</h1>
+          <h1>Lorem Ipsem</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
             officiis incidunt qui aliquid sequi eveniet pariatur! Quisquam
             reiciendis deserunt harum necessitatibus dolor, asperiores quos
             alias aliquid rem maiores eaque vitae!
           </p>
-          <a href='/' className='cta'>
-            View Details
+          <a target='_blank' href='/' className='cta'>
+            Live Demo
+          </a>
+          <br />
+          <a target='_blank' href='/' className='cta'>
+            Github Repository
           </a>
         </div>
         <div className='portfolio-img'>
-          <img src={AppDemo} alt='App-demo' />
+          <img src={codepengif} alt='App-demo' />
         </div>
       </div>
 
       <div className='portfolio-item'>
         <div className='portfolio-img has-margin-right'>
-          <img src={AppDemo} alt='' />
+          <img src={covid19App} alt='' />
         </div>
         <div className='portfolio-description'>
-          <h6>Web Design</h6>
-          <h1>Product Sketch</h1>
+          <h6>Data Visualization</h6>
+          <h1>COVID-19 Data Tracker</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            officiis incidunt qui aliquid sequi eveniet pariatur! Quisquam
-            reiciendis deserunt harum necessitatibus dolor, asperiores quos
-            alias aliquid rem maiores eaque vitae!
+            A responsive web app built with react.js and chart.js libraries that
+            visually displays real time COVID-19 Stats worldwide and from each
+            country.
           </p>
-          <a href='/' className='cta'>
-            View Details
+          <a
+            target='_blank'
+            href='https://covid19-datanow.netlify.app/'
+            className='cta'
+          >
+            Live Demo
+          </a>
+          <br />
+          <a
+            target='_blank'
+            href='https://github.com/sidbhanushali/COVID19-Data-App'
+            className='cta'
+          >
+            Github Repository
           </a>
         </div>
       </div>
 
       <div className='portfolio-item'>
         <div className='portfolio-description has-margin-right'>
-          <h6>Web Design</h6>
-          <h1>Product Layout</h1>
+          <h6>Web Development</h6>
+          <h1>Codepen Clone</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            officiis incidunt qui aliquid sequi eveniet pariatur! Quisquam
-            reiciendis deserunt harum necessitatibus dolor, asperiores quos
-            alias aliquid rem maiores eaque vitae!
+            A simple and minimal clone of the popular code sharing website,
+            codepen.io, to code and compile in real-time HTML, CSS, and
+            Javascript snippets. Built with react.js
           </p>
-          <a href='/' className='cta'>
-            View Details
+          <a
+            target='_blank'
+            href='https://react-codepen-clone.netlify.app/'
+            className='cta'
+          >
+            Live Demo
+          </a>
+          <br />
+          <a
+            target='_blank'
+            href='https://github.com/sidbhanushali/codepen-react-clone'
+            className='cta'
+          >
+            Github Repository
           </a>
         </div>
         <div className='portfolio-img'>
-          <img src={AppDemo} alt='App-demo' />
+          <img src={codepengif} alt='App-demo' />
         </div>
       </div>
     </div>

@@ -4,10 +4,6 @@
   display: flex;
   flex-flow: row;
   text-align: center;
-
-  text-align: justify;
-  -ms-text-justify: distribute-all-lines;
-  text-justify: distribute-all-lines;
 }
 
 .skill {
@@ -15,16 +11,12 @@
   flex-direction: column;
   align-items: center;
   padding: 2rem;
-
-  text-align: justify;
-  -ms-text-justify: distribute-all-lines;
-  text-justify: distribute-all-lines;
 }
 
 .skill h1 {
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin: 2rem 2rem 0;
+  margin: 2rem -2px 2rem 0;
   font-size: 2rem;
 }
 

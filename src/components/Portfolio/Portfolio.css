@@ -42,9 +42,38 @@ img {
   margin-top: 2.5rem;
   font-size: 1.5rem;
   text-transform: uppercase;
-  color: #3883ff;
+  color: white;
   transition: color 650ms;
 }
+
+/* CTA BUTTON */
+
+.cta {
+  margin: 0.3rem auto;
+  background-color: rgb(151, 108, 180);
+  height: 4rem;
+  width: 14rem;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+  border-radius: 1.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  animation: pulse 2s infinite;
+}
+
+/*Start animations*/
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(65, 136, 132, 0.99);
+  }
+
+  100% {
+    box-shadow: 0 0 0 1.4rem rgba(65, 136, 132, 0);
+  }
+}
+/*End animations*/
 
 .portfolio-description .cta:hover {
   color: #2f67cd;
