@@ -16,9 +16,9 @@ const About = () => (
           in Information Systems from San Francisco State University. I love to
           explore technology and develop interesting things out of it. I love
           open-source, learning new tech, and interacting with the tech
-          community. I have experience writing programs in python as well as
-          developing and delpoying full stack applications in javascript and
-          with various web technologies. I'm a lifelong learner at heart and
+          community. I have experience developing and delpoying full stack
+          applications in javascript, react.js, node.js and with various web
+          technologies. I have experience developing with Python, as well. I
           love learning and finding out creative and efficient ways to solve any
           problems at hand.
         </p>

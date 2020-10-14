@@ -39,6 +39,9 @@
   display: block;
   top: 50%;
   transform: translateY(-50%);
+
+  max-width: 100% !important;
+  max-height: 100% !important;
 }
 
 .timeline .date::before {

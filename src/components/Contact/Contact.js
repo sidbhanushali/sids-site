@@ -8,8 +8,8 @@ const Contact = () => (
       <div className='section-heading'>
         <h1>Contact</h1>
         <h6>
-          Let's create something together! Get in touch:
-          <a id='email' href='sbhanushali415@gmail.com'>
+          Let's create something together! Get in touch: <br />
+          <a className='cta' id='email' href='mailto:sbhanushali415@gmail.com'>
             sbhanushali415@gmail.com
           </a>
         </h6>

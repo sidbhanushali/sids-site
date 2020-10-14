@@ -71,6 +71,7 @@ const Portfolio = () => (
             country.
           </p>
           <a
+            rel='noopener noreferrer'
             target='_blank'
             href='https://covid19-datanow.netlify.app/'
             className='cta'
@@ -79,6 +80,7 @@ const Portfolio = () => (
           </a>
           <br />
           <a
+            rel='noopener noreferrer'
             target='_blank'
             href='https://github.com/sidbhanushali/COVID19-Data-App'
             className='cta'
@@ -98,6 +100,7 @@ const Portfolio = () => (
             Javascript snippets. Built with react.js
           </p>
           <a
+            rel='noopener noreferrer'
             target='_blank'
             href='https://react-codepen-clone.netlify.app/'
             className='cta'
@@ -106,6 +109,7 @@ const Portfolio = () => (
           </a>
           <br />
           <a
+            rel='noopener noreferrer'
             target='_blank'
             href='https://github.com/sidbhanushali/codepen-react-clone'
             className='cta'

@@ -51,7 +51,7 @@ img {
 .cta {
   margin: 0.3rem auto;
   background-color: rgb(151, 108, 180);
-  height: 4rem;
+  height: 3.2rem;
   width: 14rem;
   cursor: pointer;
   transition: 0.2s ease-in;
@@ -76,7 +76,7 @@ img {
 /*End animations*/
 
 .portfolio-description .cta:hover {
-  color: #2f67cd;
+  color: black;
 }
 
 /*End Portfolio*/
