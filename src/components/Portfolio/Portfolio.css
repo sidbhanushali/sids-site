@@ -1,4 +1,9 @@
 /*Start portfolio*/
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .portfolio-item {
   display: flex;
   align-items: center;
