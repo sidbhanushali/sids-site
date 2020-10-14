@@ -11,6 +11,11 @@ html {
   color: #eee;
 }
 
+html,
+body {
+  overflow-x: hidden !important;
+}
+
 body {
   text-align: center;
   width: 100%;
